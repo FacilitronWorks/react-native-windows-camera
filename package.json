@@ -1,0 +1,46 @@
+{
+  "name": "@facilitronworks/react-native-windows-camera",
+  "version": "0.1.0-alpha.0",
+  "description": "A camera for react-native-windows New Architecture. Real MediaCapture photo capture today (production-proven); live-viewfinder Fabric ComponentView scaffold next. The old community camera died in 2023 and no successor ever supported Windows.",
+  "main": "index.ts",
+  "types": "index.ts",
+  "files": [
+    "index.ts",
+    "src",
+    "windows",
+    "react-native.config.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {},
+  "keywords": [
+    "react-native",
+    "react-native-windows",
+    "camera",
+    "mediacapture",
+    "expo-camera",
+    "fabric",
+    "new-architecture",
+    "windows"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FacilitronWorks/react-native-windows-camera.git"
+  },
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*",
+    "react-native-windows": ">=0.79.0",
+    "expo-camera": "*"
+  },
+  "peerDependenciesMeta": {
+    "expo-camera": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "typescript": "^5.6.0"
+  }
+}

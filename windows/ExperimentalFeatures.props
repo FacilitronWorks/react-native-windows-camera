@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+
+  <PropertyGroup Label="Microsoft.ReactNative Experimental Features">
+    <!--
+      Required for building a New Architecture project.
+
+      This library targets the New Architecture (Fabric/Composition). The
+      consuming RNW app decides this value when building via autolink.
+    -->
+    <RnwNewArch>true</RnwNewArch>
+
+    <!--
+      Changes compilation to assume use of Microsoft.ReactNative NuGet packages
+      instead of building the framework from source. Used when building this
+      library's local sln; the consuming RNW app decides otherwise.
+    -->
+    <UseExperimentalNuget>true</UseExperimentalNuget>
+
+    <ReactExperimentalFeaturesSet>true</ReactExperimentalFeaturesSet>
+  </PropertyGroup>
+
+</Project>
